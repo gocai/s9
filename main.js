@@ -38,7 +38,7 @@ class Ending extends Phaser.Scene{
     }
     create(){
         this.background1 = this.add.image(275 , this.game.config.height / 2 + 100, 'eb2');
-        this.title1 = this.add.image(this.game.config.width / 2 , 150, 'eb1' );
+        this.title1 = this.add.image(this.game.config.width / 2 , 70, 'eb1' );
         this.tweens.add({
             targets: this.title1,
             y: this.title1.y + 20,
